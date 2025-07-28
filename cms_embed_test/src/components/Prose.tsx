@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export function Prose({ scrollProgress }: { scrollProgress: MotionValue }) {
 	const [currentFrame, setCurrentFrame] = useState(0);
-	const frames = ["A", "B", "C"];
+	const frames = ["Frame A", "Frame B", "Frame C"];
 
 	const frameAnimation = {
 		initial: {
