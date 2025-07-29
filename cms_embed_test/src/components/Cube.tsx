@@ -1,24 +1,24 @@
 import { Canvas } from "@react-three/fiber";
 import type { MotionValue } from "motion";
 import { useTransform } from "motion/react";
-import { useState } from "react";
+import { useRef } from "react";
+import type { Group } from "three";
 
 export function Cube({ scrollProgress }: { scrollProgress: MotionValue }) {
-	const [rotation, setRotation] = useState(0.0);
+	var rotRef = useRef<Group>(null!);
 
 	useTransform(() => {
-		if (rotation !== scrollProgress.get()) {
-			setRotation(scrollProgress.get());
+		let r = scrollProgress.get();
+		if (rotRef.current) {
+			rotRef.current.rotation.z = r * 4;
+			rotRef.current.position.z = Math.sin(r * 5) * 0.2;
 		}
 	});
 
 	return (
 		<div id="canvas-container" className="w-full h-full">
 			<Canvas camera={{ position: [0, 3, 0] }}>
-				<group
-					rotation={[0, 0, rotation * 4]}
-					position={[0, 0, Math.sin(rotation * 5) * 0.2]}
-				>
+				<group ref={rotRef}>
 					<mesh
 						rotation={[
 							Math.PI * 0.25,

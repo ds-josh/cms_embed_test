@@ -28,6 +28,7 @@ export function Prose({ scrollProgress }: { scrollProgress: MotionValue }) {
 			<AnimatePresence>
 				{frames.map((frame, i) => (
 					<motion.div
+						key={i}
 						animate={
 							currentFrame === i
 								? frameAnimation.animate
