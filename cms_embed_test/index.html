@@ -1,18 +1,1183 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>CMS Embed Test</title>
-	</head>
-	<body>
-		<div style="width: 100vw; height: 50rem; background-color: gray"></div>
-		<div>
-			<div><div id="animation1"></div></div>
-		</div>
+    <head>
+        <title>DS Test A - Clean Version</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <link
+            href="https://uat-corporate.charterhallweb.com/_assets/css/index.css?v=1ea7ddcfa1d3c0c6e7c6261e9099681b"
+            rel="stylesheet"
+        />
+        <link
+            rel="shortcut icon"
+            type="image/x-icon"
+            href="https://uat-corporate.charterhallweb.com/_assets/images/favicon.ico"
+        />
+        <link
+            href="https://uat-corporate.charterhallweb.com/Frontend-Assembly/Telerik.Sitefinity.Frontend.Search/assets/dist/css/sf-search-box.min.css"
+            rel="stylesheet"
+            type="text/css"
+        />
 
-		<div style="width: 100vw; height: 50rem; background-color: gray"></div>
-		<script type="module" src="/src/main.tsx"></script>
-	</body>
+        <style type="text/css" media="all">
+            /* Hide scrollbar for Chrome, Safari and Edge */
+            .delta::-webkit-scrollbar {
+                display: none;
+            }
+
+            .row.sf-fieldWrp {
+                z-index: auto;
+            }
+
+            img.inject-me,
+            img.injectable {
+                visibility: visible;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="content-container">
+            <header class="component-header has-cta-ribbon">
+                <div class="utility-bar-container">
+                    <div class="container">
+                        <div class="ribbon-container"></div>
+                        <div class="utility-bar-wrapper">
+                            <div class="utility-bar row desktop">
+                                <div class="utility-link">
+                                    <a class="link" href="#">Contact us</a>
+                                </div>
+                                <div class="utility-link">
+                                    <a class="link" href="#"
+                                        >Frequently asked questions</a
+                                    >
+                                </div>
+                                <div class="utility-link">
+                                    <a class="link" href="#"
+                                        >Corporate governance</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="nav-bar desktop row">
+                        <div class="logo-wrapper">
+                            <a href="#">
+                                <img
+                                    loading="lazy"
+                                    src="https://uat-corporate.charterhallweb.com/_assets/svg/charterhall-logo.svg"
+                                    alt="Charter Hall Logo"
+                                />
+                            </a>
+                        </div>
+                        <div class="links-wrapper">
+                            <div class="parent-menu-item">
+                                <div class="item">Investor centre</div>
+                            </div>
+                            <div class="parent-menu-item">
+                                <div class="item">Property solutions</div>
+                            </div>
+                            <div class="parent-menu-item">
+                                <div class="item">Why Charter Hall</div>
+                            </div>
+                            <div class="parent-menu-item">
+                                <div class="item">Media centre</div>
+                            </div>
+                        </div>
+                        <div class="actions-wrapper">
+                            <div class="search-box search">
+                                <label class="search-label">Search</label>
+                                <button class="button-action" type="button">
+                                    <div class="blue">
+                                        <img
+                                            loading="lazy"
+                                            src="https://uat-corporate.charterhallweb.com/_assets/svg/search-new.svg"
+                                            alt="search"
+                                        />
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="under-nav"></div>
+
+            <div class="component-cta-ribbon index">
+                <div class="cta-ribbon-item">
+                    <div class="cta-ribbon">
+                        <div class="funds green">
+                            CLW <span>$4.13 AUD</span>
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="8"
+                                height="8"
+                                viewBox="0 0 8 8"
+                                fill="none"
+                            >
+                                <path
+                                    d="M1.07129 5.50012L4.05824 2.51318L7.07129 5.50012"
+                                    stroke="black"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+                            1.98%
+                            <span class="time"
+                                >30 July 16:24 AEDT, delayed by 20 mins.</span
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="component-layout">
+                <div class="container">
+                    <div class="row">
+                        <div class="sf_colsIn col-12">
+                            <nav aria-label="Full path to the current page">
+                                <div class="sf-breadscrumb breadcrumb"></div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="standard-hero component-standard-hero">
+                <div class="overflow-animation gradient">
+                    <div
+                        class="hero"
+                        style="
+                            background-image: url(&quot;/images/librariesprovider2/fund/clw/clw-glasshouse-macquarie-pk.tmb-hero-desk.jpg&quot;);
+                        "
+                    ></div>
+                </div>
+                <div class="container hero-home">
+                    <div class="row">
+                        <div class="col">
+                            <div class="home-title-wrapper">
+                                <div class="home-title">
+                                    <div class="name">
+                                        <h1>
+                                            Charter Hall Long WALE REIT
+                                            (ASX:CLW)
+                                        </h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="component-navigation component-sub-nav horizon">
+                <div class="container">
+                    <div class="navigation-container">
+                        <div class="subnav-item">
+                            <a href="#">Overview</a>
+                        </div>
+                        <div class="subnav-item">
+                            <a href="#">Investor Centre</a>
+                        </div>
+                        <div class="subnav-item">
+                            <a href="#">Results and Presentations</a>
+                        </div>
+                        <div class="subnav-item">
+                            <a href="#">Property Portfolio</a>
+                        </div>
+                        <div class="subnav-item">
+                            <a href="#">ASX Announcements</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="component-layout grey no-padding-top no-padding-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="sf_colsIn col-12">
+                            <div class="content-block">
+                                <div class="sf-Long-text">
+                                    <h1>
+                                        Here you will find the fund financial
+                                        results, annual reports and other
+                                        presentations given throughout the year.
+                                    </h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="component-tabbed-page">
+                <div class="wrapper tabbed-container">
+                    <div class="tabbed-container-wrapper">
+                        <div class="container">
+                            <div class="scroll">
+                                <input
+                                    class="tab"
+                                    id="page1"
+                                    type="radio"
+                                    name="tabs"
+                                    checked="checked"
+                                />
+                                <label for="page1">Annual Reports</label>
+                                <input
+                                    class="tab"
+                                    id="page2"
+                                    type="radio"
+                                    name="tabs"
+                                />
+                                <label for="page2"
+                                    >Financial Results & Annual Securityholders'
+                                    Meetings</label
+                                >
+                                <input
+                                    class="tab"
+                                    id="page3"
+                                    type="radio"
+                                    name="tabs"
+                                />
+                                <label for="page3"
+                                    >Latest Webcasts & Presentations</label
+                                >
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="contentPage1">
+                        <div class="spacer medium"></div>
+                        <div class="component-layout">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="sf_colsIn col-12 col-md-6">
+                                        <div class="content-block">
+                                            <div class="sf-Long-text">
+                                                <h2>
+                                                    Curating our portfolio for
+                                                    the future
+                                                </h2>
+                                                <p class="bodycopy-regular">
+                                                    In the face of economic
+                                                    challenges, CLW successfully
+                                                    divested non-core assets,
+                                                    reducing near term lease
+                                                    expiry risk, strengthening
+                                                    its balance sheet, and
+                                                    preparing the portfolio for
+                                                    future growth.
+                                                </p>
+                                                <p class="bodycopy-regular">
+                                                    &nbsp;
+                                                </p>
+                                                <h2>
+                                                    <a
+                                                        class="round dark cta"
+                                                        href="#"
+                                                        >Access Report</a
+                                                    >
+                                                </h2>
+                                                <i
+                                                    >You can change how you
+                                                    receive annual reports by
+                                                    contacting our unit registry
+                                                    on 1300 303 063.</i
+                                                >
+                                                <p>&nbsp;</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sf_colsIn col-12 col-md-6">
+                                        <div class="component-image-block">
+                                            <img
+                                                loading="lazy"
+                                                src="https://uat-corporate.charterhallweb.com/images/librariesprovider2/results/823x611px-clwartboard-1-copy-17.png"
+                                                alt="CLW Annual Report"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="spacer medium"></div>
+
+                        <div class="component-accordion">
+                            <div class="component-accordion-list-item">
+                                <h3 class="accordion-title">
+                                    <span class="accordion-title-span"
+                                        >Previous Reports</span
+                                    >
+                                    <div class="plus"></div>
+                                    <div class="minus"></div>
+                                </h3>
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>
+                                            <a href="#">Annual Report 2022</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Annual Report 2021</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Annual Report 2020</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Annual Report 2019</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Annual Report 2018</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Annual Report 2017</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="spacer medium"></div>
+
+            <!-- OUR APP HERE -->
+            <div>
+                <div><div id="animation1"></div></div>
+            </div>
+            <script type="module" src="/src/main.tsx"></script>
+            <!-- END OUR APP HERE -->
+
+            <div class="component-layout">
+                <div class="layout-6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="sf_colsIn col-12 col-lg-4">
+                                <div class="content-block">
+                                    <div class="sf-Long-text">
+                                        <h2>Key Dates & Events</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sf_colsIn col-12 col-lg-8">
+                                <div class="component-accordion">
+                                    <div
+                                        class="component-accordion-list-item open"
+                                    >
+                                        <h3 class="accordion-title">
+                                            <span class="accordion-title-span"
+                                                >2025</span
+                                            >
+                                            <div class="plus"></div>
+                                            <div class="minus"></div>
+                                        </h3>
+                                        <div class="accordion-body">
+                                            <table>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            Full Year Results
+                                                        </td>
+                                                        <td>
+                                                            6 August 2025 at
+                                                            9:00am AEST
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <p>&nbsp;</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="spacer medium"></div>
+
+            <div
+                class="component-layout light-blue no-padding-top no-padding-bottom"
+            >
+                <div class="component-contact">
+                    <div class="container">
+                        <div class="row">
+                            <div
+                                class="col-12 col-md-12 col-lg-4 contact-heading"
+                            >
+                                <h3 class="contact-heading-title">Contact</h3>
+                                <p class="contact-heading-description"></p>
+                            </div>
+                            <div
+                                class="col-12 col-md-12 offset-lg-1 col-lg-7 contact-content"
+                            >
+                                <div class="contact-item">
+                                    <div class="image">
+                                        <div class="avatar">
+                                            <img
+                                                loading="lazy"
+                                                src="https://uat-corporate.charterhallweb.com/images/librariesprovider2/icons-logos/charter-hall-logo/charter-hall_cube-icon_ch-96x96.tmb-small.png"
+                                                alt="Unit Registry"
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="text">
+                                        <div class="personal">
+                                            <h4 class="name">Unit Registry</h4>
+                                            <p
+                                                class="position small diversified"
+                                            >
+                                                Enquiries
+                                            </p>
+                                        </div>
+                                        <div class="details">
+                                            <ul class="contact-detail">
+                                                <li class="phone">
+                                                    <a
+                                                        class="textlink"
+                                                        href="tel:1300303063"
+                                                    >
+                                                        <img
+                                                            loading="lazy"
+                                                            src="https://uat-corporate.charterhallweb.com/_assets/svg/phone_transparent.svg"
+                                                            alt="phone"
+                                                        />1300 303 063
+                                                    </a>
+                                                </li>
+                                                <li class="email">
+                                                    <a
+                                                        class="textlink"
+                                                        href="mailto:charterhall.reits@cm.mpms.mufg.com.au"
+                                                    >
+                                                        <img
+                                                            loading="lazy"
+                                                            src="https://uat-corporate.charterhallweb.com/_assets/svg/mail_transparent.svg"
+                                                            alt="email"
+                                                        />Contact via email
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="image">
+                                        <div class="avatar">
+                                            <img
+                                                loading="lazy"
+                                                src="https://uat-corporate.charterhallweb.com/_assets/images/avatar_blue.png"
+                                                alt="Investor Relations"
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="text">
+                                        <div class="personal">
+                                            <h4 class="name">
+                                                Investor Relations
+                                            </h4>
+                                            <p
+                                                class="position small diversified"
+                                            >
+                                                Enquiries
+                                            </p>
+                                        </div>
+                                        <div class="details">
+                                            <ul class="contact-detail">
+                                                <li class="phone">
+                                                    <a
+                                                        class="textlink"
+                                                        href="tel:1300365585"
+                                                    >
+                                                        <img
+                                                            loading="lazy"
+                                                            src="https://uat-corporate.charterhallweb.com/_assets/svg/phone_transparent.svg"
+                                                            alt="phone"
+                                                        />1300 365 585
+                                                    </a>
+                                                </li>
+                                                <li class="email">
+                                                    <a
+                                                        class="textlink"
+                                                        href="mailto:CHreits@charterhall.com.au"
+                                                    >
+                                                        <img
+                                                            loading="lazy"
+                                                            src="https://uat-corporate.charterhallweb.com/_assets/svg/mail_transparent.svg"
+                                                            alt="email"
+                                                        />Contact via email
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="component-layout grey no-padding-top no-padding-bottom">
+                <div class="spacer medium"></div>
+                <div class="component-layout">
+                    <div class="layout-3">
+                        <div class="container">
+                            <div class="row center">
+                                <div class="sf_colsIn col-12 col-md-8">
+                                    <div class="component-disclaimer">
+                                        <h5>Important Information</h5>
+                                        <div class="disclaimer-text">
+                                            <div class="p disclaimer">
+                                                <p>
+                                                    As at 30 Dec 2024. This
+                                                    material has been prepared
+                                                    by Charter Hall WALE Limited
+                                                    (ABN 20 610 772 202; AFSL
+                                                    486721) for information
+                                                    purposes only. This website
+                                                    is not an offer to sell or a
+                                                    solicitation or an offer to
+                                                    subscribe or purchase or a
+                                                    recommendation of any
+                                                    securities referred to
+                                                    herein and the information
+                                                    has not taken into account
+                                                    any potential investors'
+                                                    personal objectives,
+                                                    financial situation or
+                                                    needs. Before investing, you
+                                                    should consider your own
+                                                    objectives, financial
+                                                    situation and needs or you
+                                                    should obtain financial,
+                                                    legal and/or taxation
+                                                    advice.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="disclaimer-truncate">
+                                            <a
+                                                class="cta textlink disclaimer-truncate-btn"
+                                                href="#"
+                                            >
+                                                <span>Show more</span>
+                                                <svg
+                                                    width="14"
+                                                    height="14"
+                                                    viewBox="0 0 14 14"
+                                                    fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                >
+                                                    <path
+                                                        d="M1.10706 4.02613L7.08096 10L13.1071 4.02613"
+                                                        stroke-linecap="round"
+                                                        stroke-linejoin="round"
+                                                    />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="spacer medium"></div>
+            </div>
+
+            <div class="component-footer">
+                <div class="wrapper">
+                    <div class="background">
+                        <div class="container">
+                            <div class="row">
+                                <div
+                                    class="logo-col col-sm-12 col-md-4 col-lg-5 col-xl-5"
+                                >
+                                    <a class="logo" href="#">
+                                        <img
+                                            loading="lazy"
+                                            src="https://uat-corporate.charterhallweb.com/_assets/svg/charterhall-logo-blue.svg"
+                                            alt="Charter Hall"
+                                        />
+                                    </a>
+                                    <div class="social">
+                                        <div class="nav">
+                                            <h4>We're here to help.</h4>
+                                            <div class="content-block">
+                                                <a
+                                                    class="round dark cta"
+                                                    href="#"
+                                                    >Contact us</a
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-sm-12 col-md-8 col-lg-7 col-xl-7"
+                                >
+                                    <div class="row">
+                                        <div
+                                            class="col-sm-12 col-md-4 col-lg-4 col-xl-4"
+                                        >
+                                            <div class="nav-folderized">
+                                                <div class="nav">
+                                                    <h5
+                                                        class="footer-title-dropdown"
+                                                    >
+                                                        Investor centre
+                                                        <svg
+                                                            width="12"
+                                                            height="14"
+                                                            viewBox="0 0 12 14"
+                                                            fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                        >
+                                                            <path
+                                                                d="M8.57031 12.1429L3.4285 6.99896L8.57031 1.85715"
+                                                                stroke="#2A6EBB"
+                                                                stroke-width="2"
+                                                                stroke-linecap="round"
+                                                                stroke-linejoin="round"
+                                                            />
+                                                        </svg>
+                                                    </h5>
+                                                    <div
+                                                        class="dropdown-item list"
+                                                    >
+                                                        <div class="link">
+                                                            <a
+                                                                class="rollborder-link"
+                                                                href="#"
+                                                            >
+                                                                <span
+                                                                    >New to
+                                                                    investing</span
+                                                                >
+                                                                <svg
+                                                                    width="8"
+                                                                    height="12"
+                                                                    viewBox="0 0 8 12"
+                                                                    fill="none"
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                >
+                                                                    <path
+                                                                        d="M1.42871 11.1429L6.57053 5.99896L1.42871 0.85714"
+                                                                        stroke="#4D4D4D"
+                                                                        stroke-width="1.5"
+                                                                        stroke-linecap="round"
+                                                                        stroke-linejoin="round"
+                                                                    />
+                                                                </svg>
+                                                            </a>
+                                                        </div>
+                                                        <div class="link">
+                                                            <a
+                                                                class="rollborder-link"
+                                                                href="#"
+                                                            >
+                                                                <span
+                                                                    >Financial
+                                                                    advisors</span
+                                                                >
+                                                                <svg
+                                                                    width="8"
+                                                                    height="12"
+                                                                    viewBox="0 0 8 12"
+                                                                    fill="none"
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                >
+                                                                    <path
+                                                                        d="M1.42871 11.1429L6.57053 5.99896L1.42871 0.85714"
+                                                                        stroke="#4D4D4D"
+                                                                        stroke-width="1.5"
+                                                                        stroke-linecap="round"
+                                                                        stroke-linejoin="round"
+                                                                    />
+                                                                </svg>
+                                                            </a>
+                                                        </div>
+                                                        <div class="link">
+                                                            <a
+                                                                class="rollborder-link"
+                                                                href="#"
+                                                            >
+                                                                <span
+                                                                    >Direct
+                                                                    funds</span
+                                                                >
+                                                                <svg
+                                                                    width="8"
+                                                                    height="12"
+                                                                    viewBox="0 0 8 12"
+                                                                    fill="none"
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                >
+                                                                    <path
+                                                                        d="M1.42871 11.1429L6.57053 5.99896L1.42871 0.85714"
+                                                                        stroke="#4D4D4D"
+                                                                        stroke-width="1.5"
+                                                                        stroke-linecap="round"
+                                                                        stroke-linejoin="round"
+                                                                    />
+                                                                </svg>
+                                                            </a>
+                                                        </div>
+                                                        <div class="link">
+                                                            <a
+                                                                class="rollborder-link"
+                                                                href="#"
+                                                            >
+                                                                <span
+                                                                    >Listed
+                                                                    funds</span
+                                                                >
+                                                                <svg
+                                                                    width="8"
+                                                                    height="12"
+                                                                    viewBox="0 0 8 12"
+                                                                    fill="none"
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                >
+                                                                    <path
+                                                                        d="M1.42871 11.1429L6.57053 5.99896L1.42871 0.85714"
+                                                                        stroke="#4D4D4D"
+                                                                        stroke-width="1.5"
+                                                                        stroke-linecap="round"
+                                                                        stroke-linejoin="round"
+                                                                    />
+                                                                </svg>
+                                                            </a>
+                                                        </div>
+                                                        <div class="link">
+                                                            <a
+                                                                class="rollborder-link"
+                                                                href="#"
+                                                            >
+                                                                <span
+                                                                    >Wholesale
+                                                                    funds</span
+                                                                >
+                                                                <svg
+                                                                    width="8"
+                                                                    height="12"
+                                                                    viewBox="0 0 8 12"
+                                                                    fill="none"
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                >
+                                                                    <path
+                                                                        d="M1.42871 11.1429L6.57053 5.99896L1.42871 0.85714"
+                                                                        stroke="#4D4D4D"
+                                                                        stroke-width="1.5"
+                                                                        stroke-linecap="round"
+                                                                        stroke-linejoin="round"
+                                                                    />
+                                                                </svg>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="col-sm-12 col-md-4 col-lg-4 col-xl-4"
+                                        >
+                                            <div class="nav-folderized">
+                                                <div class="nav">
+                                                    <h5
+                                                        class="footer-title-dropdown"
+                                                    >
+                                                        Property solutions
+                                                        <svg
+                                                            width="12"
+                                                            height="14"
+                                                            viewBox="0 0 12 14"
+                                                            fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                        >
+                                                            <path
+                                                                d="M8.57031 12.1429L3.4285 6.99896L8.57031 1.85715"
+                                                                stroke="#2A6EBB"
+                                                                stroke-width="2"
+                                                                stroke-linecap="round"
+                                                                stroke-linejoin="round"
+                                                            />
+                                                        </svg>
+                                                    </h5>
+                                                    <div
+                                                        class="dropdown-item list"
+                                                    >
+                                                        <div class="link">
+                                                            <a
+                                                                class="rollborder-link"
+                                                                href="#"
+                                                            >
+                                                                <span
+                                                                    >Industrial
+                                                                    &
+                                                                    Logistics</span
+                                                                >
+                                                                <svg
+                                                                    width="8"
+                                                                    height="12"
+                                                                    viewBox="0 0 8 12"
+                                                                    fill="none"
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                >
+                                                                    <path
+                                                                        d="M1.42871 11.1429L6.57053 5.99896L1.42871 0.85714"
+                                                                        stroke="#4D4D4D"
+                                                                        stroke-width="1.5"
+                                                                        stroke-linecap="round"
+                                                                        stroke-linejoin="round"
+                                                                    />
+                                                                </svg>
+                                                            </a>
+                                                        </div>
+                                                        <div class="link">
+                                                            <a
+                                                                class="rollborder-link"
+                                                                href="#"
+                                                            >
+                                                                <span
+                                                                    >Active
+                                                                    partnerships</span
+                                                                >
+                                                                <svg
+                                                                    width="8"
+                                                                    height="12"
+                                                                    viewBox="0 0 8 12"
+                                                                    fill="none"
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                >
+                                                                    <path
+                                                                        d="M1.42871 11.1429L6.57053 5.99896L1.42871 0.85714"
+                                                                        stroke="#4D4D4D"
+                                                                        stroke-width="1.5"
+                                                                        stroke-linecap="round"
+                                                                        stroke-linejoin="round"
+                                                                    />
+                                                                </svg>
+                                                            </a>
+                                                        </div>
+                                                        <div class="link">
+                                                            <a
+                                                                class="rollborder-link"
+                                                                href="#"
+                                                            >
+                                                                <span
+                                                                    >Office</span
+                                                                >
+                                                                <svg
+                                                                    width="8"
+                                                                    height="12"
+                                                                    viewBox="0 0 8 12"
+                                                                    fill="none"
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                >
+                                                                    <path
+                                                                        d="M1.42871 11.1429L6.57053 5.99896L1.42871 0.85714"
+                                                                        stroke="#4D4D4D"
+                                                                        stroke-width="1.5"
+                                                                        stroke-linecap="round"
+                                                                        stroke-linejoin="round"
+                                                                    />
+                                                                </svg>
+                                                            </a>
+                                                        </div>
+                                                        <div class="link">
+                                                            <a
+                                                                class="rollborder-link"
+                                                                href="#"
+                                                            >
+                                                                <span
+                                                                    >Retail</span
+                                                                >
+                                                                <svg
+                                                                    width="8"
+                                                                    height="12"
+                                                                    viewBox="0 0 8 12"
+                                                                    fill="none"
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                >
+                                                                    <path
+                                                                        d="M1.42871 11.1429L6.57053 5.99896L1.42871 0.85714"
+                                                                        stroke="#4D4D4D"
+                                                                        stroke-width="1.5"
+                                                                        stroke-linecap="round"
+                                                                        stroke-linejoin="round"
+                                                                    />
+                                                                </svg>
+                                                            </a>
+                                                        </div>
+                                                        <div class="link">
+                                                            <a
+                                                                class="rollborder-link"
+                                                                href="#"
+                                                            >
+                                                                <span
+                                                                    >Social
+                                                                    Infrastructure</span
+                                                                >
+                                                                <svg
+                                                                    width="8"
+                                                                    height="12"
+                                                                    viewBox="0 0 8 12"
+                                                                    fill="none"
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                >
+                                                                    <path
+                                                                        d="M1.42871 11.1429L6.57053 5.99896L1.42871 0.85714"
+                                                                        stroke="#4D4D4D"
+                                                                        stroke-width="1.5"
+                                                                        stroke-linecap="round"
+                                                                        stroke-linejoin="round"
+                                                                    />
+                                                                </svg>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="col-sm-12 col-md-4 col-lg-4 col-xl-4"
+                                        >
+                                            <div class="nav-folderized">
+                                                <div class="nav">
+                                                    <h5
+                                                        class="footer-title-dropdown"
+                                                    >
+                                                        Why Charter Hall
+                                                        <svg
+                                                            width="12"
+                                                            height="14"
+                                                            viewBox="0 0 12 14"
+                                                            fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                        >
+                                                            <path
+                                                                d="M8.57031 12.1429L3.4285 6.99896L8.57031 1.85715"
+                                                                stroke="#2A6EBB"
+                                                                stroke-width="2"
+                                                                stroke-linecap="round"
+                                                                stroke-linejoin="round"
+                                                            />
+                                                        </svg>
+                                                    </h5>
+                                                    <div
+                                                        class="dropdown-item list"
+                                                    >
+                                                        <div class="link">
+                                                            <a
+                                                                class="rollborder-link"
+                                                                href="#"
+                                                            >
+                                                                <span
+                                                                    >About
+                                                                    us</span
+                                                                >
+                                                                <svg
+                                                                    width="8"
+                                                                    height="12"
+                                                                    viewBox="0 0 8 12"
+                                                                    fill="none"
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                >
+                                                                    <path
+                                                                        d="M1.42871 11.1429L6.57053 5.99896L1.42871 0.85714"
+                                                                        stroke="#4D4D4D"
+                                                                        stroke-width="1.5"
+                                                                        stroke-linecap="round"
+                                                                        stroke-linejoin="round"
+                                                                    />
+                                                                </svg>
+                                                            </a>
+                                                        </div>
+                                                        <div class="link">
+                                                            <a
+                                                                class="rollborder-link"
+                                                                href="#"
+                                                            >
+                                                                <span
+                                                                    >What we
+                                                                    do</span
+                                                                >
+                                                                <svg
+                                                                    width="8"
+                                                                    height="12"
+                                                                    viewBox="0 0 8 12"
+                                                                    fill="none"
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                >
+                                                                    <path
+                                                                        d="M1.42871 11.1429L6.57053 5.99896L1.42871 0.85714"
+                                                                        stroke="#4D4D4D"
+                                                                        stroke-width="1.5"
+                                                                        stroke-linecap="round"
+                                                                        stroke-linejoin="round"
+                                                                    />
+                                                                </svg>
+                                                            </a>
+                                                        </div>
+                                                        <div class="link">
+                                                            <a
+                                                                class="rollborder-link"
+                                                                href="#"
+                                                            >
+                                                                <span
+                                                                    >Sustainability</span
+                                                                >
+                                                                <svg
+                                                                    width="8"
+                                                                    height="12"
+                                                                    viewBox="0 0 8 12"
+                                                                    fill="none"
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                >
+                                                                    <path
+                                                                        d="M1.42871 11.1429L6.57053 5.99896L1.42871 0.85714"
+                                                                        stroke="#4D4D4D"
+                                                                        stroke-width="1.5"
+                                                                        stroke-linecap="round"
+                                                                        stroke-linejoin="round"
+                                                                    />
+                                                                </svg>
+                                                            </a>
+                                                        </div>
+                                                        <div class="link">
+                                                            <a
+                                                                class="rollborder-link"
+                                                                href="#"
+                                                            >
+                                                                <span
+                                                                    >Leadership
+                                                                    team</span
+                                                                >
+                                                                <svg
+                                                                    width="8"
+                                                                    height="12"
+                                                                    viewBox="0 0 8 12"
+                                                                    fill="none"
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                >
+                                                                    <path
+                                                                        d="M1.42871 11.1429L6.57053 5.99896L1.42871 0.85714"
+                                                                        stroke="#4D4D4D"
+                                                                        stroke-width="1.5"
+                                                                        stroke-linecap="round"
+                                                                        stroke-linejoin="round"
+                                                                    />
+                                                                </svg>
+                                                            </a>
+                                                        </div>
+                                                        <div class="link">
+                                                            <a
+                                                                class="rollborder-link"
+                                                                href="#"
+                                                            >
+                                                                <span
+                                                                    >Board of
+                                                                    Directors</span
+                                                                >
+                                                                <svg
+                                                                    width="8"
+                                                                    height="12"
+                                                                    viewBox="0 0 8 12"
+                                                                    fill="none"
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                >
+                                                                    <path
+                                                                        d="M1.42871 11.1429L6.57053 5.99896L1.42871 0.85714"
+                                                                        stroke="#4D4D4D"
+                                                                        stroke-width="1.5"
+                                                                        stroke-linecap="round"
+                                                                        stroke-linejoin="round"
+                                                                    />
+                                                                </svg>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright-wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="copyright">
+                                    <ul>
+                                        <li>
+                                            <p>
+                                                &copy; Charter Hall Group, 2025.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <a class="rollover-link" href="#">
+                                                <span>Terms of Use</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="rollover-link" href="#">
+                                                <span>Privacy Policy</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="rollover-link" href="#">
+                                                <span>Complaints Guide</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="rollover-link" href="#">
+                                                <span>Feedback</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="social-block">
+                                    <div class="social-item">
+                                        <a
+                                            class="social"
+                                            href="https://www.linkedin.com/company/charter-hall"
+                                            target="_blank"
+                                        >
+                                            <img
+                                                loading="lazy"
+                                                src="https://uat-corporate.charterhallweb.com/_assets/svg/linkedin_footer_new.svg"
+                                                alt="LinkedIn"
+                                            />
+                                        </a>
+                                    </div>
+                                    <div class="social-item">
+                                        <a
+                                            class="social"
+                                            href="https://www.youtube.com/channel/UChb4XB4nYcN18j4RmMfyUjQ"
+                                            target="_blank"
+                                        >
+                                            <img
+                                                loading="lazy"
+                                                src="https://uat-corporate.charterhallweb.com/_assets/svg/youtube_footer_new.svg"
+                                                alt="YouTube"
+                                            />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
