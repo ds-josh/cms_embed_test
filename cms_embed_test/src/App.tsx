@@ -1,9 +1,33 @@
 import { motion, useScroll } from "motion/react";
 import { Prose } from "./components/Prose";
 import { Cube } from "./components/Cube";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 
 function App() {
+    // Remove this useEffect and you'll be back at previous situation.
+    useEffect(() => {
+        // Override overflow styles
+        const html = document.documentElement;
+        const body = document.body;
+
+        // Store original styles
+        const originalHtmlOverflowY = html.style.overflowY;
+        const originalBodyOverflow = body.style.overflow;
+        const originalBodyOverflowX = body.style.overflowX;
+
+        // Apply new styles
+        html.style.overflowY = "unset";
+        body.style.overflow = "unset";
+        body.style.overflowX = "hidden";
+
+        // Cleanup function to restore original styles
+        return () => {
+            html.style.overflowY = originalHtmlOverflowY;
+            body.style.overflow = originalBodyOverflow;
+            body.style.overflowX = originalBodyOverflowX;
+        };
+    }, []);
+
     const scrollRef = useRef(null!);
 
     const { scrollYProgress } = useScroll({
