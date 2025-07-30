@@ -1,3 +1,0 @@
-# /robots.txt file for https://www.charterhall.com.au/
-User-agent: *
-Disallow: /
